@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: url('../img/siniy_ekran_smerti_1920x1200.jpg') no-repeat;
+}
+
+.frame-tmpl__wrapper{
+    width: 50%;
+    margin: 4% auto;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    padding: 2%;
+    font-family: Verdana, sans-serif;
+}
+.frame-tmpl__header-h1{
+    text-align: center;
+    color: #801506;
+    font-size: 6vw;
+}
+
+.frame-tmpl__header-item-values{
+  text-align: center;
+  display: block;
+  outline: none;
+  width: 98%;
+  background: #fff;
+  border:  solid #FF791A;
+  border-radius: 10px;
+  padding: 0.7%;
+  font-size: 2.5vw;
+  color: #808080;
+  font-family: inherit;
+  cursor: pointer;
+  
+}
+
+.frame-tmpl__item-list{
+    margin: 2% 0;
+    list-style: none;
+}
+
+.list-tmpl__item-wrap {
+  width: 100%;  
+  font-family: Verdana, sans-serif;
+  position: relative;
+}
+
+
+
+.list-tmpl__item-btn-delete {
+    width: 5%;
+    height: 63%;
+    position: absolute;
+    top: 13%;
+    right: 2px;
+    border: 2px solid #808080;
+    background: #E1E1E1;
+    border-radius: 50%;
+    font-size: 1.4vw;
+    color: #FF791A;
+    cursor: pointer;
+    float: right;
+}
+
+.list-tmpl__item-btn-delete, 
+.list-tmpl__item-btn-delete:active, 
+.list-tmpl__item-btn-delete:focus {
+    outline: none;
+}
+
+.list-tmpl__item-btn-delete:active{
+   border: 2px solid #FF791A; 
+} 
+
+
+.list-tmpl__item-edit{
+    display: none;
+}
+
+.frame-tmpl__item-list .list-tmpl__item.editing .list-tmpl__item-edit{
+  display: block;
+  outline: none;
+  width: 92%;
+  background: #fff;
+  border:none;
+  border-bottom: 2px solid #FF791A;
+  padding: 0.7%;
+  font-size: 2.5vw;
+  color: #38271D;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+
+.list-tmpl__item-wrap .list-tmpl__item-label {
+  cursor: pointer;
+  display: block;
+  width: 92%;
+  padding: 0.7%;
+  border-bottom: 2px solid #b4ae32;
+  left: 15px;
+  top: 18px;
+  color: #902b08;
+  font-size: 2.5vw;
+  /*-webkit-transition: .5s;*/
+  /*transition: .5s;*/
+    /*-webkit-animation: blink2 1s linear infinite;*/
+    /*animation: blink2 1s linear infinite;*/
+}
+.list-tmpl__item-wrap .list-tmpl__item-label img{
+    float: right;
+}
+
+
